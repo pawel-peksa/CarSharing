@@ -4,148 +4,161 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800;900&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
-  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
   <link rel="stylesheet" href="css/style.css">
   <title>Car Sharing</title>
 </head>
 <body>
   <header>
-    <div class="container container--header">
-      <div class="logo">
-        <img src="images\IconLogoNormal.svg" alt="logo sign">
-        <span>Car</span> sharing
+    <div class="banner">
+      <div class="container container--banner centered">
+
+        <div class="logo">
+          <img src="images/IconLogoNormal.svg" alt="logo of the company - three dots connected by two lines">
+          <span>Car</span>
+          Sharing
+        </div>
+
+        <nav class="main-nav">
+          <ul>
+            <li><a href="/" class="centered">Home</a></li>
+            <li><a href="/" class="centered">Blog</a></li>
+            <li><a href="/" class="centered">Service</a></li>
+            <li><a href="/" class="centered">Contact</a></li>
+          </ul>
+        </nav>
+        
+      </div> <!-- e:container -->
+    </div>
+
+    <div class="container centered hero">
+      <h1>Car Sharing</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <div class="btn-wrapper">
+        <a href="#" class="btn btn--big btn--red centered">Share a car</a>
+        <a href="#" class="btn btn--big btn--white centered">Key features</a>
       </div>
-      <nav>
-        <ul class="centered">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+    </div>
+
   </header>
-
-  <section class="hero-section">
-    <div class="container hero-container">
-      <main>
-        <h1>Car sharing</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <div class="btn--wrapper">
-          <a href="#" class="btn btn--big btn--red">Share a car</a>
-          <a href="#" class="btn btn--big btn--white">Key features</a>
-        </div>
-    </main>
-    </div>
-    <a href="#" class="arrow"><img src="images/IconArrowDown.svg"></a>
-  </section>
-</div>
-
-  <section>
-    <div class="container blog">
+  <div class="arrow centered container"><a href="#blog" class="centered"><img src="images/IconArrowDown.svg" alt="arrow pointing down"></a></div>
+  
+  <section class="blog--section" id="blog">
+    <div class="container centered">
       <h2>Blog</h2>
-      <div class="box-wrapper">
+      <div class="blog--wrapper">
         <div class="box">
-          <img src="images/photo1.png" alt="">
-          <span>Lorem ipsum dolor sit</span>
+          <a href=""><img src="images/photo1.png" alt=""></a>
+          <h3>Lorem ipsum dolor sit</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#" class="btn btn--small btn--red">Read more</a> 
+          <a href="" class="btn btn--small btn--red centered">Read more</a>
         </div>
         <div class="box">
-          <img src="images/photo2.png" alt="">
-          <span>Lorem ipsum dolor sit</span>
+          <a href=""><img src="images/photo2.png" alt=""></a>
+          <h3>Lorem ipsum dolor sit</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#" class="btn btn--small btn--red">Read more</a> 
+          <a href="" class="btn btn--small btn--red centered">Read more</a>
         </div>
         <div class="box">
-          <img src="images/photo3.png" alt="">
-          <span>Lorem ipsum dolor sit</span>
+          <a href=""><img src="images/photo3.png" alt=""></a>
+          <h3>Lorem ipsum dolor sit</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#" class="btn btn--small btn--red">Read more</a> 
+          <a href="" class="btn btn--small btn--red centered">Read more</a>
         </div>
-      </div>
-    </div>
+      </div> <!-- e:blog--wrapper -->
+    </div>  
   </section>
 
-  <section class="section--service centered">
-    <div class="container service">
+  <section class="service--section">
+    <div class="container centered">
       <h2>Service</h2>
-      <div class="box-wrapper">
+      <div class="service--wrapper">
         <div class="box">
-          <img src="images/mini1.png" alt="">
-          <span>Lorem ipsum dolor sit</span>
+          <a href=""><img src="images/mini1.png" alt=""></a>
+          <h3>Lorem ipsum dolor sit</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#" class="btn btn--small btn--red">Read more</a> 
+          <a href="" class="btn btn--small btn--red centered">Read more</a>
         </div>
         <div class="box">
-          <img src="images/mini2.png" alt="">
-          <span>Lorem ipsum dolor sit</span>
+          <a href=""><img src="images/mini2.png" alt=""></a>
+          <h3>Lorem ipsum dolor sit</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#" class="btn btn--small btn--red">Read more</a> 
+          <a href="" class="btn btn--small btn--red centered">Read more</a>
         </div>
         <div class="box">
-          <img src="images/mini3.png" alt="">
-          <span>Lorem ipsum dolor sit</span>
+          <a href=""><img src="images/mini3.png" alt=""></a>
+          <h3>Lorem ipsum dolor sit</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#" class="btn btn--small btn--red">Read more</a> 
+          <a href="" class="btn btn--small btn--red centered">Read more</a>
         </div>
         <div class="box">
-          <img src="images/mini4.png" alt="">
-          <span>Lorem ipsum dolor sit</span>
+          <a href=""><img src="images/mini4.png" alt=""></a>
+          <h3>Lorem ipsum dolor sit</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#" class="btn btn--small btn--red">Read more</a> 
+          <a href="" class="btn btn--small btn--red centered">Read more</a>
         </div>
-      </div>
-    </div>
+      </div> <!-- e:blog--wrapper -->
+    </div>  
   </section>
 
-  <section class="section--contact centered">
-    <div class="container contact ">
+  <section class="contact--section">
+    <div class="container centered">
       <h2>Contact</h2>
-      <div class="contact-wrapper">
-        <img src="images/FormPhoto.png">
+      <div class="contact--wrapper">
+        <img src="images/FormPhoto.png" alt="photo of two cars from above">
         <form>
-          <label>
-            <input type="text" placeholder="Type your name">
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Name">
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" placeholder="E-mail">
+
+          <label for="message">Your message:</label>
+          <textarea id="message">Type your message</textarea>
+
+          <label class="consent">
+            <input type="checkbox">
+            <span></span>
+            I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)
           </label>
-          <label>
-            <input type="email" placeholder="Type your e-mail">
-          </label>
-          <label>
-            <textarea placeholder="Type your message"></textarea>
-          </label>
-          <div class="consent">
-            <label>
-              <input type="checkbox"><span></span>
-              <p>I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)</p>
-            </label>
-          </div>
-          <button class="btn btn--small btn--white" type="submit">Send</button>
+
+          <button type="submit" class="btn btn--small btn--white btn--submit centered">Send</button>
         </form>
-      </div>
+      </div> <!-- e:contact--wrapper -->
     </div>
   </section>
 
   <footer>
     <div class="container">
+
       <div class="footer--logo">
-        <img src="images\IconLogoNormal.svg" alt="logo sign">
-        <span>Car</span> Sharing
+        <img src="images/IconLogoNormal.svg" alt="">
+        <span>Car</span>
+        Sharing
       </div>
-      <div class="footer-nav">
-        <ul>
-          <li>Home Page</li>
-          <li>About Us</li>
-          <li>Gallery</li>
-          <li>Share Regulation</li>
-          <li>Price</li>
-          <li>Our Fleet</li>
-          <li>Our Clients</li>
-          <li>Contact</li>
-        </ul>
+
+      <div class="footer--wrapper">
+        <div class="footer--nav">
+          <ul>
+            <li><a href="/">Home Page</a></li>
+            <li><a href="/">About Us</a></li>
+            <li><a href="/">Gallery</a></li>
+            <li><a href="/">Share regulation</a></li>
+            <li><a href="/">Price</a></li>
+            <li><a href="/">Our fleet</a></li>
+            <li><a href="/">Our clients</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+        </div>
+
+        <span class="copyright">
+          Copyright &copy; CodersLab
+        </span>
       </div>
-      <span class="copyright">Copyright &copy; Coders Lab</span>
-      
+
     </div>
   </footer>
 </body>
